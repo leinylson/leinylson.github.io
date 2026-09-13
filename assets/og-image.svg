@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".55" stop-color="#0b3b73"/><stop offset="1" stop-color="#00bfff"/></linearGradient>
+  <pattern id="p" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#58a6ff" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1200" height="630" fill="#020617"/><rect width="1200" height="630" fill="url(#g)" opacity=".8"/><rect width="1200" height="630" fill="url(#p)"/>
+<circle cx="1010" cy="100" r="180" fill="#00bfff" opacity=".08"/><circle cx="1010" cy="100" r="95" fill="#00bfff" opacity=".06"/>
+<text x="90" y="235" fill="#00bfff" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="5">&lt;/&gt; LEINYLSON</text>
+<text x="90" y="310" fill="#fff" font-family="Arial, sans-serif" font-size="58" font-weight="800">Leinylson Fontinele Pereira</text>
+<text x="94" y="365" fill="#b9c8da" font-family="Arial, sans-serif" font-size="25">Professor • Tecnologia • Educação • Inovação</text>
+<text x="94" y="470" fill="#00bfff" font-family="Arial, sans-serif" font-size="23">Tecnologia é ferramenta. Aprendizagem é o propósito.</text>
+</svg>
