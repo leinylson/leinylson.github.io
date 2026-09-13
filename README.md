@@ -1,10 +1,13 @@
-### Olá! Sou o Leinylson 👋
+# Leinylson — GitHub Pages
 
-- 🔭 Atualmente trabalho como professor da área de tecnologia.
-- 🌱 Atualmente estou desenvolvendo um jogo sério na área da saúde.
-- 😄 No momento, estou buscando aprender sobre inteligência artifical para NPC's.
-- 👯 Estou a procura de parcerias que queiram colaborar em projetos de desenvolvimento de jogos.
-- 💬 Me pergunte sobre metodologias ativas de ensino e aprendizagem.
-- 📫 Como me contactar: leinylson@gmail.com.
-- ⚡ Fato engraçado: não assisto algo mais de uma vez (raras exceções).
+Portfólio pessoal de Leinylson Fontinele Pereira.
 
+## Estrutura
+
+- `index.html` — página principal
+- `style.css` — identidade visual e responsividade
+- `script.js` — navegação, animações e integração com a API pública do GitHub
+- `assets/favicon.svg` — favicon
+- `assets/og-image.svg` — imagem social/Open Graph
+
+O projeto é estático e pode ser publicado diretamente pelo GitHub Pages.
