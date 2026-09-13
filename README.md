@@ -1,13 +1,30 @@
-# Leinylson — GitHub Pages
+# leinylson.github.io
 
-Portfólio pessoal de Leinylson Fontinele Pereira.
+Portfólio pessoal de **Leinylson Fontinele Pereira**.
+
+O site apresenta os projetos públicos do GitHub, interesses em tecnologia e educação, além de projetos em desenvolvimento declarados no perfil.
 
 ## Estrutura
 
-- `index.html` — página principal
-- `style.css` — identidade visual e responsividade
-- `script.js` — navegação, animações e integração com a API pública do GitHub
-- `assets/favicon.svg` — favicon
-- `assets/og-image.svg` — imagem social/Open Graph
+```text
+.
+├── index.html
+├── style.css
+├── script.js
+├── .nojekyll
+└── assets/
+    ├── favicon.svg
+    └── og-image.svg
+```
 
-O projeto é estático e pode ser publicado diretamente pelo GitHub Pages.
+## Publicação
+
+No GitHub Pages, use o branch `main` e a pasta `/ (root)` como fonte de publicação.
+
+## Projetos em destaque
+
+- [`leinylson.github.io`](https://github.com/leinylson/leinylson.github.io) — site pessoal.
+- [`leinylson`](https://github.com/leinylson/leinylson) — perfil profissional no GitHub.
+- **Jogo sério na área da saúde** — projeto em desenvolvimento, conforme descrito no perfil público.
+
+O bloco "Live from GitHub" consulta os repositórios públicos pela API do GitHub e atualiza os cards automaticamente.

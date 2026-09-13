@@ -157,3 +157,25 @@ pre { margin:0; padding:26px 28px; overflow:auto; font:500 .86rem/1.9 ui-monospa
 @media (max-width: 620px) {
   .container { width:min(100% - 28px, 1160px); }.section { padding:85px 0; }.hero h1 { font-size:3.05rem; }.hero-meta { flex-direction:column; gap:7px; }.hero-visual { min-height:360px; }.code-window { transform:none; }.floating-card { left:-3px; bottom:5px; }.projects-grid,.interest-grid,.stack-columns { grid-template-columns:1fr; }.project-card.featured { grid-column:auto; }.stack-group:last-child { grid-column:auto; }.repo-list { grid-template-columns:1fr; }.section-heading.split { align-items:flex-start; flex-direction:column; }.footer-inner { flex-direction:column; align-items:flex-start; }.hero-actions .button { width:100%; text-align:center; }.about-main { padding:26px; }
 }
+
+
+/* Real project cards */
+.visual-website { background: radial-gradient(circle at 70% 20%, rgba(0,191,255,.2), transparent 40%), linear-gradient(135deg,#061b30,#020b16); }
+.visual-profile { background: radial-gradient(circle at 50% 45%, rgba(88,166,255,.16), transparent 55%), #040c17; }
+.visual-game { background: radial-gradient(circle at 50% 50%, rgba(139,92,246,.18), transparent 52%), linear-gradient(135deg,#10091c,#05070d); }
+.browser-frame { position:absolute; inset:58px 42px 28px; border:1px solid rgba(88,166,255,.22); border-radius:12px; background:linear-gradient(180deg,rgba(88,166,255,.06),rgba(0,0,0,.12)); box-shadow:0 0 45px rgba(0,191,255,.07); }
+.browser-frame::after { content:""; position:absolute; left:14px; right:14px; top:38px; height:1px; background:rgba(88,166,255,.15); box-shadow:0 35px 0 rgba(88,166,255,.07),0 70px 0 rgba(88,166,255,.05); }
+.browser-frame i { display:inline-block; width:6px; height:6px; border-radius:50%; background:#4c627d; margin:10px 0 0 8px; }
+.profile-grid { position:absolute; inset:30px; background-image:linear-gradient(rgba(88,166,255,.1) 1px,transparent 1px),linear-gradient(90deg,rgba(88,166,255,.1) 1px,transparent 1px); background-size:24px 24px; mask-image:radial-gradient(circle,black,transparent 70%); }
+.game-grid { position:absolute; inset:0; background:radial-gradient(circle at 30% 30%, rgba(0,191,255,.13), transparent 20%), radial-gradient(circle at 70% 70%, rgba(139,92,246,.13), transparent 22%); }
+.project-content .secondary-link { margin-left:18px; color:#7d90a8; }
+.project-status { display:inline-flex; align-items:center; gap:7px; color:#91a4bb; font-size:.7rem; margin-top:4px; }
+.project-status i { width:6px; height:6px; border-radius:50%; background:#fbbf24; box-shadow:0 0 10px rgba(251,191,36,.55); }
+.project-note { margin-top:20px; padding:20px 24px; border-radius:17px; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:20px; }
+.project-note strong { display:block; font-size:.8rem; }
+.project-note p { margin:3px 0 0; color:var(--muted); font-size:.7rem; }
+.project-note > a { color:var(--blue); font-size:.72rem; white-space:nowrap; }
+
+@media (max-width: 900px) {
+  .project-note { grid-template-columns:1fr; gap:8px; }
+}

@@ -82,7 +82,13 @@ async function loadRepositories() {
           <span>${escapeHTML(repo.language || "Code")}</span>
         </div>
       </a>
-    `).join("");
+    `).join("") + (repos.length < 3 ? `
+      <a class="repo-item" href="https://github.com/leinylson?tab=repositories" target="_blank" rel="noopener">
+        <strong>Novos projetos em breve</strong>
+        <p>Esta área cresce junto com os próximos projetos públicos.</p>
+        <div class="repo-meta"><span>GitHub</span><span>Projetos</span></div>
+      </a>
+    ` : "");
   } catch (error) {
     container.innerHTML = `
       <a class="repo-item" href="https://github.com/leinylson?tab=repositories" target="_blank" rel="noopener">
