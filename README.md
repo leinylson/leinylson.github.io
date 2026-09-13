@@ -25,6 +25,4 @@ No GitHub Pages, use o branch `main` e a pasta `/ (root)` como fonte de publica�
 
 - [`leinylson.github.io`](https://github.com/leinylson/leinylson.github.io) — site pessoal.
 - [`leinylson`](https://github.com/leinylson/leinylson) — perfil profissional no GitHub.
-- **Jogo sério na área da saúde** — projeto em desenvolvimento, conforme descrito no perfil público.
-
-O bloco "Live from GitHub" consulta os repositórios públicos pela API do GitHub e atualiza os cards automaticamente.
+- **Jogo sério na área da saúde**.
